@@ -5,3 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+books = Book.create(title: 'The Little Prince',no_of_copies: 4,author: "Andrew Clements")
+Book.create(title: 'Frindle',no_of_copies: 4,author: "Andrew Clements")
