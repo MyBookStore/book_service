@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
-  resources :books, :only => [:index] do
-
-  end
+  get 'books' => 'books#index'
+  # resources :books, :only => [:index] do
+  #
+  # end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
